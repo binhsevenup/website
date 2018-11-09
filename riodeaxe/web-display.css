@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-image: url('https://www.everynation.org/wp-content/uploads/2018/02/Monthly-Website-Header-background.jpg');
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: Tahoma;
+}
+
+.header .col-3{
+    margin: 22px 0 0 31px;
+    display: block;
+    width: 25%;
+}
+
+.header .col-9{
+    margin: -108px 0 9px 187px;
+}
+
+.quote {
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: right;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.home {
+    background-color: #2196F3;
+}
+
+
+.account {
+    float: right;
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navbar a:hover {
+      background-color: #ddd;
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.hidden-text{
+    display: none;
+}
+.danger-text{
+    color: red;
+}
+.success-text{
+    color: green;
+}
+
+.form-group {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
