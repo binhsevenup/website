@@ -1,1 +1,1 @@
-<?<?php header('Location : web-origin.html'); ?>
+<?<?php header('Location : /riodeaxe/web-origin.html'); ?>
