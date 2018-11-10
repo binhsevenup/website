@@ -16,15 +16,27 @@ if (btnSubmit != null) {
 }
 
 function postRegisterData(jsonData) {
+
     var xmlhttp = new XMLHttpRequest();
+
     xmlhttp.onreadystatechange = function () {
+
         if (this.readyState == 4 && this.status == 201) {
+
             var members = JSON.parse(this.responseText);
-            alert(members.token);
+
+            alert(' !');
+
             localStorage.setItem('token-key',members.token);
+
         }
+
     }
-    xmlhttp.open('POST', LOGIN_API, true);
+
+    xmlhttp.open('POST', LOGIN_API , true);
+
     xmlhttp.setRequestHeader("content-type", "application/json");
+
     xmlhttp.send(jsonData);
+
 }
